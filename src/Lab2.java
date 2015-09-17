@@ -16,15 +16,15 @@ public class Lab2 {
 	// Assume that the original man is also going to St. Ives, so
 	// the boolean variable manGoingToStIves should be true.
 	
-	boolean manGoingToStIves = !true;
+	boolean manGoingToStIves = true;
 
-	//int numWives = 8;
+	int numWives = 7;
 
-	//int numSacksPerWife = 7;
+	int numSacksPerWife = 7;
 	
-	//int numCatsPerSack = 7;
+	int numCatsPerSack = 7;
 
-	//int numKitsPerCat = 7;
+	int numKitsPerCat = 7;
 
 	byte total;
 
