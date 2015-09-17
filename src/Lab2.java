@@ -26,7 +26,7 @@ public class Lab2 {
 
 	int numKitsPerCat = 7;
 
-	byte total;
+	int total;
 
 	// If the original man is going to St. Ives, then all are going
 	// the narrator, original man, kitten, cats, sacks, wives.
@@ -38,7 +38,8 @@ public class Lab2 {
 	    // all of the wives, sacks, cats, and kittens are as well, along
 	    // with the narrator.
 	    // Calculate the number going to St. Ives
-	    total = -1;
+	    total = 1+1+(numWives*numSacksPerWife*numCatsPerSack*numKitsPerCat);
+	    
 	} else {
 	    // Otherwise, only the narrator is going!
 	    total = 1;
